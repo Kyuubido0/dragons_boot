@@ -39,9 +39,9 @@
         SelectedDriveMediaType = DriveMediaType(DriveListIndex)
 
         If SelectedDriveCaption.Length() > 19 Then
-            L_Drive_Label.Text = SelectedDriveCaption.Substring(0, 19)
+            L_DriveLabel.Text = SelectedDriveCaption.Substring(0, 19)
         Else
-            L_Drive_Label.Text = SelectedDriveCaption
+            L_DriveLabel.Text = SelectedDriveCaption
         End If
 
         L_DriveSize.Text = SelectedDriveSize

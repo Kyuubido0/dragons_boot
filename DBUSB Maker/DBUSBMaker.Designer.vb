@@ -39,7 +39,7 @@ Partial Class DBUSBMaker
         Me.L_DriveMediaType = New System.Windows.Forms.Label()
         Me.L_DriveIndex = New System.Windows.Forms.Label()
         Me.L_DriveSize = New System.Windows.Forms.Label()
-        Me.L_Drive_Label = New System.Windows.Forms.Label()
+        Me.L_DriveLabel = New System.Windows.Forms.Label()
         Me.L_Capacity = New System.Windows.Forms.Label()
         Me.L_MediaType = New System.Windows.Forms.Label()
         Me.L_InterfaceType = New System.Windows.Forms.Label()
@@ -204,7 +204,7 @@ Partial Class DBUSBMaker
         Me.gb_Devices.Controls.Add(Me.L_DriveMediaType)
         Me.gb_Devices.Controls.Add(Me.L_DriveIndex)
         Me.gb_Devices.Controls.Add(Me.L_DriveSize)
-        Me.gb_Devices.Controls.Add(Me.L_Drive_Label)
+        Me.gb_Devices.Controls.Add(Me.L_DriveLabel)
         Me.gb_Devices.Controls.Add(Me.L_Capacity)
         Me.gb_Devices.Controls.Add(Me.L_MediaType)
         Me.gb_Devices.Controls.Add(Me.L_InterfaceType)
@@ -259,15 +259,15 @@ Partial Class DBUSBMaker
         Me.L_DriveSize.TabIndex = 8
         Me.L_DriveSize.Text = "<N/A>"
         '
-        'L_Drive_Label
+        'L_DriveLabel
         '
-        Me.L_Drive_Label.AutoSize = True
-        Me.L_Drive_Label.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.L_Drive_Label.Location = New System.Drawing.Point(89, 127)
-        Me.L_Drive_Label.Name = "L_Drive_Label"
-        Me.L_Drive_Label.Size = New System.Drawing.Size(121, 13)
-        Me.L_Drive_Label.TabIndex = 7
-        Me.L_Drive_Label.Text = "<NO DRIVE DETECTED>"
+        Me.L_DriveLabel.AutoSize = True
+        Me.L_DriveLabel.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.L_DriveLabel.Location = New System.Drawing.Point(89, 127)
+        Me.L_DriveLabel.Name = "L_DriveLabel"
+        Me.L_DriveLabel.Size = New System.Drawing.Size(121, 13)
+        Me.L_DriveLabel.TabIndex = 7
+        Me.L_DriveLabel.Text = "<NO DRIVE DETECTED>"
         '
         'L_Capacity
         '
@@ -502,5 +502,5 @@ Partial Class DBUSBMaker
     Friend WithEvents L_DriveMediaType As Label
     Friend WithEvents L_DriveIndex As Label
     Friend WithEvents L_DriveSize As Label
-    Friend WithEvents L_Drive_Label As Label
+    Friend WithEvents L_DriveLabel As Label
 End Class
